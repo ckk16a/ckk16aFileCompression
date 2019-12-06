@@ -86,6 +86,13 @@ public class FileCompressTest extends TestCase
         return n;
     }
 
+    private void createTestDir() throws IOException{
+        File files = new File("src" + sep + "files");
+        if(!files.exists()){
+            files.mkdir();
+        }
+    }
+
     //Checks to make sure two files are identical
     public boolean allBytesSame(File f1, File f2) throws IOException
     {
@@ -149,6 +156,7 @@ public class FileCompressTest extends TestCase
         return sb.toString();
     }
 
+    //Increases the size of the string
     public String[] increaseSize(String[] original, int amount) {
        String[]temp = new String[amount + 1];
 
@@ -195,6 +203,9 @@ public class FileCompressTest extends TestCase
 
 	//Tests the compression of 1 file via LZW
     public void testFileCompress1() throws IOException {
+
+        createTestDir();
+
         //Makes Test1 Directory
         File dir = new File(directory + sep + "test1");
         if(dir.exists())
@@ -221,6 +232,8 @@ public class FileCompressTest extends TestCase
 
     //Tests the compression of 1 file via Huffman
     public void testFileCompress2() throws IOException {
+        createTestDir();
+
         //Makes Test2 Directory
         File dir = new File(directory + sep + "test2");
         if(dir.exists())
@@ -247,6 +260,8 @@ public class FileCompressTest extends TestCase
 
     //Tests the compression of a GLOB via LZW
     public void testFileCompress3() throws IOException {
+        createTestDir();
+
         //Makes Test3 Directory
         File dir = new File(directory + sep + "test3");
         if(dir.exists())
@@ -286,6 +301,8 @@ public class FileCompressTest extends TestCase
 
     //Tests the compression of a GLOB via Huffman
     public void testFileCompress4() throws IOException {
+        createTestDir();
+
         //Makes Test4 Directory
         File dir = new File(directory + sep + "test4");
         if(dir.exists())
@@ -325,6 +342,8 @@ public class FileCompressTest extends TestCase
 
     //Tests the compression of an archive via LZW
     public void testFileCompress5() throws IOException {
+        createTestDir();
+
         //Makes Test5 Directory
         File dir = new File(directory + sep + "test5");
         if(dir.exists())
@@ -365,6 +384,8 @@ public class FileCompressTest extends TestCase
 
     //Tests that compression of an archive via Huffman does not work
     public void testFileCompress6() throws IOException {
+        createTestDir();
+
         //Makes Test6 Directory variable
         File dir = new File(directory + sep + "test6");
 
@@ -380,6 +401,8 @@ public class FileCompressTest extends TestCase
 
     //Tests the compression of 1 file via LZW and deletes the file before decompression, tests the creation of the file again
     public void testFileCompress7() throws IOException {
+        createTestDir();
+
         //Makes Test7 Directory
         File dir = new File(directory + sep + "test7");
         if(dir.exists())
@@ -407,6 +430,8 @@ public class FileCompressTest extends TestCase
 
     //Tests the compression of 1 file via Huffman and deletes the file before decompression, tests the creation of the file again
     public void testFileCompress8() throws IOException {
+        createTestDir();
+
         //Makes Test8 Directory
         File dir = new File(directory + sep + "test8");
         if(dir.exists())
@@ -434,6 +459,8 @@ public class FileCompressTest extends TestCase
 
     //Tests the compression of an archive via LZW and deletes the files before decompression, tests the creation of the file again
     public void testFileCompress9() throws IOException {
+        createTestDir();
+
         //Makes Test9 Directory
         File dir = new File(directory + sep + "test9");
         if(dir.exists())
@@ -480,6 +507,8 @@ public class FileCompressTest extends TestCase
 
     //Tests the compression of an empty file via LZW
     public void testFileCompress10() throws IOException {
+        createTestDir();
+
         //Makes Test10 Directory
         File dir = new File(directory + sep + "test10");
         if(dir.exists())
@@ -506,6 +535,8 @@ public class FileCompressTest extends TestCase
 
     //Tests the compression of an empty file via Huffman
     public void testFileCompress11() throws IOException {
+        createTestDir();
+
         //Makes Test11 Directory
         File dir = new File(directory + sep + "test11");
         if(dir.exists())
@@ -532,6 +563,8 @@ public class FileCompressTest extends TestCase
 
     //Tests the compression of an archive with an empty file via LZW
     public void testFileCompress12() throws IOException {
+        createTestDir();
+
         //Makes Test12 Directory
         File dir = new File(directory + sep + "test12");
         if(dir.exists())
@@ -580,6 +613,8 @@ public class FileCompressTest extends TestCase
 
      //Tests the compression of an archive with no input files via LZW
     public void testFileCompress13() throws IOException {
+        createTestDir();
+
         //Makes Test13 Directory
         File dir = new File(directory + sep + "test13");
         if(dir.exists())
@@ -605,6 +640,8 @@ public class FileCompressTest extends TestCase
 
     //Tests for LZW Runtime error if the file does not exist
     public void testFileCompress14() throws IOException {
+        createTestDir();
+
         //Calls LZW with a file that does not exist
         String dir = directory + sep + "test14";
         String filename = "test14";
@@ -619,6 +656,8 @@ public class FileCompressTest extends TestCase
 
     //Tests for Huffman Runtime error if the file does not exist
     public void testFileCompress15() throws IOException {
+        createTestDir();
+
         //Calls Huffman with a file that does not exist
         String dir = directory + sep + "test15";
         String filename = "test15";
@@ -633,6 +672,8 @@ public class FileCompressTest extends TestCase
 
     //Tests for Archive Runtime error if the archive does not exist
     public void testFileCompress16() throws IOException {
+        createTestDir();
+
         //Calls Archive with a file that does not exist
         try{
             SchubsArc.main(new String[] {});
@@ -645,6 +686,8 @@ public class FileCompressTest extends TestCase
 
     //Tests for LZW Runtime error if there are no arguments
     public void testFileCompress17() throws IOException {
+        createTestDir();
+
         //Calls LZW with no arguments
         try{
             SchubsL.main(new String[] {});
@@ -657,6 +700,8 @@ public class FileCompressTest extends TestCase
 
     //Tests for Huffman Runtime error if there are no arguments
     public void testFileCompress18() throws IOException {
+        createTestDir();
+
         //Calls Huffman with no arguments
         try{
             SchubsH.main(new String[] {});
@@ -669,6 +714,8 @@ public class FileCompressTest extends TestCase
 
     //Tests Deschubs for a Runtime error with no arguments given
     public void testFileCompress19() throws IOException{
+        createTestDir();
+
         //Calls Deschubs with no arguments
         try{
             Deschubs.main(new String[] {});
@@ -681,6 +728,8 @@ public class FileCompressTest extends TestCase
 
     //Tests Deschubs for a Runtime error with a non existent file
     public void testFileCompress20() throws IOException{
+        createTestDir();
+        
         //Calls Deschubs with a file that does not exist
         String dir = directory + sep + "test20";
         String filename = "test20";
