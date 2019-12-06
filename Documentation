@@ -1,5 +1,6 @@
 Testing instructions:
--Navigate to project with "cd" command
+-Clone repository into a local repository
+-Navigate to project folder containing the src folder with the "cd" command (ex. cd ckk16aFileCompression)
 -Type "mvn test" and hit enter
 
 Design:
@@ -11,9 +12,12 @@ randomized or if the file is a series of random characters.
 CLI:
 -Deschubs: java Deschubs <filename>.hh|ll/archive.zl
  Deschubs uncompresses Huffman or LZW compressed files and archives
+ 
 -SchubsH: java SchubsH <filename>/<GLOB>
  SchubsH compresses a file or GLOB of files using a Huffman tree
+ 
 -SchubsL: java SchubsL <filename>/<GLOB>
  SchubsL compresses a file or GLOB of files using LZW
+ 
 -SchubsArc: java SchubsArc <archive-name> *.txt
  SchubsArc tars a group of files and compresses the tar file
