@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="FileCompressTest" time="0.542" tests="20" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\toputitin\ckk16a\target\test-classes;C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\toputitin\ckk16a\target\classes;C:\Users\Carson Kelley\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Carson Kelley\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\CARSON~1\AppData\Local\Temp\surefire7984665743752732522\surefirebooter2343683796483730659.jar C:\Users\Carson Kelley\AppData\Local\Temp\surefire7984665743752732522 2019-12-05T18-39-43_882-jvmRun1 surefire999880538893069273tmp surefire_01883661465296828749tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\toputitin\ckk16a\target\test-classes;C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\toputitin\ckk16a\target\classes;C:\Users\Carson Kelley\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Carson Kelley\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Carson Kelley"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="basedir" value="C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\toputitin\ckk16a"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\CARSON~1\AppData\Local\Temp\surefire7984665743752732522\surefirebooter2343683796483730659.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="Carson Kelley"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Carson Kelley\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\CARSON~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\toputitin\ckk16a"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\libexec\git-core;C:\Users\Carson Kelley\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Carson Kelley\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\MySQL\MySQL Utilities 1.6;C:\Program Files\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Git\cmd;C:\Users\Carson Kelley\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testFileCompress10" classname="FileCompressTest" time="0.028"/>
+  <testcase name="testFileCompress11" classname="FileCompressTest" time="0.006"/>
+  <testcase name="testFileCompress12" classname="FileCompressTest" time="0.056"/>
+  <testcase name="testFileCompress13" classname="FileCompressTest" time="0.003"/>
+  <testcase name="testFileCompress14" classname="FileCompressTest" time="0.001"/>
+  <testcase name="testFileCompress15" classname="FileCompressTest" time="0"/>
+  <testcase name="testFileCompress16" classname="FileCompressTest" time="0"/>
+  <testcase name="testFileCompress17" classname="FileCompressTest" time="0"/>
+  <testcase name="testFileCompress18" classname="FileCompressTest" time="0.001"/>
+  <testcase name="testFileCompress19" classname="FileCompressTest" time="0"/>
+  <testcase name="testFileCompress20" classname="FileCompressTest" time="0"/>
+  <testcase name="testFileCompress1" classname="FileCompressTest" time="0.031"/>
+  <testcase name="testFileCompress2" classname="FileCompressTest" time="0.053"/>
+  <testcase name="testFileCompress3" classname="FileCompressTest" time="0.066"/>
+  <testcase name="testFileCompress4" classname="FileCompressTest" time="0.057"/>
+  <testcase name="testFileCompress5" classname="FileCompressTest" time="0.084"/>
+  <testcase name="testFileCompress6" classname="FileCompressTest" time="0.001"/>
+  <testcase name="testFileCompress7" classname="FileCompressTest" time="0.024"/>
+  <testcase name="testFileCompress8" classname="FileCompressTest" time="0.024"/>
+  <testcase name="testFileCompress9" classname="FileCompressTest" time="0.05"/>
+</testsuite>
