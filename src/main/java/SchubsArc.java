@@ -73,14 +73,20 @@ public class SchubsArc {
     	if(args.length == 0)
             throw new RuntimeException("No arguments given.");
 
+        File arc = new File(args[0] + ".zl");
+        if(args.length < 2){
+            arc.createNewFile();
+            return;
+        }
+
 		ArrayList<String> toTar = new ArrayList<String>();
-        toTar.add(args[0] + ".zl");
+        toTar.add(arc.getAbsolutePath());
 
 		for(int i = 1; i < args.length; i++){
         	toTar.add(args[i]);
         }
         Tarsn.main(toTar.toArray(new String[toTar.size()]));
-        compress(new File(toTar.get(0)));
+        compress(arc);
 
         toTar.clear();
         toTar = null;
