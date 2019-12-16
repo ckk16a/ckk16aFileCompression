@@ -45,14 +45,14 @@ public class SchubsArc {
             return;
         }
 
-        BinaryOut out = null;
-        out = new BinaryOut(f.getAbsolutePath());
-
         if(input.length() > 0){
 	        TST<Integer> st = new TST<Integer>();
 	        for (int i = 0; i < R; i++)
 	            st.put("" + (char) i, i);
 	        int code = R+1;  // R is codeword for EOF
+
+            BinaryOut out = null;
+            out = new BinaryOut(f.getAbsolutePath());
 
 	        while (input.length() > 0) {
 	            String s = st.longestPrefixOf(input);  // Find max prefix match s.

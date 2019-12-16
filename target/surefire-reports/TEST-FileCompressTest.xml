@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="FileCompressTest" time="0.679" tests="20" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="FileCompressTest" time="0.599" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\toputitin\ckk16a\target\test-classes;C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\toputitin\ckk16a\target\classes;C:\Users\Carson Kelley\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Carson Kelley\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\aah\ckk16aFileCompression\target\test-classes;C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\aah\ckk16aFileCompression\target\classes;C:\Users\Carson Kelley\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Carson Kelley\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\CARSON~1\AppData\Local\Temp\surefire4758601728515277695\surefirebooter6019395601024411268.jar C:\Users\Carson Kelley\AppData\Local\Temp\surefire4758601728515277695 2019-12-05T18-45-56_077-jvmRun1 surefire7309571111394040773tmp surefire_0393369730311676734tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\toputitin\ckk16a\target\test-classes;C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\toputitin\ckk16a\target\classes;C:\Users\Carson Kelley\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Carson Kelley\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.java.command" value="C:\Users\CARSON~1\AppData\Local\Temp\surefire2774634719287165182\surefirebooter4406871559541770757.jar C:\Users\Carson Kelley\AppData\Local\Temp\surefire2774634719287165182 2019-12-15T22-20-17_920-jvmRun1 surefire3755658752772781882tmp surefire_03732347074259684929tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\aah\ckk16aFileCompression\target\test-classes;C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\aah\ckk16aFileCompression\target\classes;C:\Users\Carson Kelley\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Carson Kelley\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Carson Kelley"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
-    <property name="basedir" value="C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\toputitin\ckk16a"/>
+    <property name="basedir" value="C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\aah\ckk16aFileCompression"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\CARSON~1\AppData\Local\Temp\surefire4758601728515277695\surefirebooter6019395601024411268.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\CARSON~1\AppData\Local\Temp\surefire2774634719287165182\surefirebooter4406871559541770757.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\CARSON~1\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_191"/>
-    <property name="user.dir" value="C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\toputitin\ckk16a"/>
+    <property name="user.dir" value="C:\Users\Carson Kelley\Desktop\Comp Sci\SE 2\aah\ckk16aFileCompression"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -60,24 +60,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testFileCompress10" classname="FileCompressTest" time="0.037"/>
-  <testcase name="testFileCompress11" classname="FileCompressTest" time="0.005"/>
+  <testcase name="testFileCompress10" classname="FileCompressTest" time="0.032"/>
+  <testcase name="testFileCompress11" classname="FileCompressTest" time="0.006"/>
   <testcase name="testFileCompress12" classname="FileCompressTest" time="0.049"/>
-  <testcase name="testFileCompress13" classname="FileCompressTest" time="0.003"/>
-  <testcase name="testFileCompress14" classname="FileCompressTest" time="0.001"/>
+  <testcase name="testFileCompress13" classname="FileCompressTest" time="0.004"/>
+  <testcase name="testFileCompress14" classname="FileCompressTest" time="0"/>
   <testcase name="testFileCompress15" classname="FileCompressTest" time="0"/>
-  <testcase name="testFileCompress16" classname="FileCompressTest" time="0"/>
-  <testcase name="testFileCompress17" classname="FileCompressTest" time="0"/>
+  <testcase name="testFileCompress16" classname="FileCompressTest" time="0.001"/>
+  <testcase name="testFileCompress17" classname="FileCompressTest" time="0.001"/>
   <testcase name="testFileCompress18" classname="FileCompressTest" time="0"/>
   <testcase name="testFileCompress19" classname="FileCompressTest" time="0"/>
-  <testcase name="testFileCompress20" classname="FileCompressTest" time="0.001"/>
-  <testcase name="testFileCompress1" classname="FileCompressTest" time="0.024"/>
-  <testcase name="testFileCompress2" classname="FileCompressTest" time="0.027"/>
-  <testcase name="testFileCompress3" classname="FileCompressTest" time="0.128"/>
-  <testcase name="testFileCompress4" classname="FileCompressTest" time="0.027"/>
-  <testcase name="testFileCompress5" classname="FileCompressTest" time="0.111"/>
-  <testcase name="testFileCompress6" classname="FileCompressTest" time="0"/>
-  <testcase name="testFileCompress7" classname="FileCompressTest" time="0.075"/>
-  <testcase name="testFileCompress8" classname="FileCompressTest" time="0.02"/>
-  <testcase name="testFileCompress9" classname="FileCompressTest" time="0.116"/>
+  <testcase name="testFileCompress20" classname="FileCompressTest" time="0"/>
+  <testcase name="testFileCompress1" classname="FileCompressTest" time="0.068"/>
+  <testcase name="testFileCompress2" classname="FileCompressTest" time="0.033"/>
+  <testcase name="testFileCompress3" classname="FileCompressTest" time="0.08"/>
+  <testcase name="testFileCompress4" classname="FileCompressTest" time="0.052"/>
+  <testcase name="testFileCompress5" classname="FileCompressTest" time="0.083"/>
+  <testcase name="testFileCompress6" classname="FileCompressTest" time="0.001"/>
+  <testcase name="testFileCompress7" classname="FileCompressTest" time="0.03"/>
+  <testcase name="testFileCompress8" classname="FileCompressTest" time="0.033"/>
+  <testcase name="testFileCompress9" classname="FileCompressTest" time="0.068"/>
 </testsuite>
