@@ -56,7 +56,8 @@ public class SchubsArc {
 
 	        while (input.length() > 0) {
 	            String s = st.longestPrefixOf(input);  // Find max prefix match s.
-	            out.write(st.get(s), W);      // Print s's encoding.
+                if(s != null && s.length() != 0 && !s.equals(""))
+	               out.write(st.get(s), W);      // Print s's encoding.
 	            int t = s.length();
 	            if (t < input.length() && code < L)    // Add s to symbol table.
 	                st.put(input.substring(0, t + 1), code++);
